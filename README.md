@@ -4,6 +4,10 @@
 
 A simple appliction to stream music
 
+## Dependancies
+
+Uses Wx-Widgets and STK
+
 ## TODO
 
 [ ] Metadata handling
