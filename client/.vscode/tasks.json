@@ -1,0 +1,42 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-lwxpng",
+                "-lwxzlib",
+                "-lwxmsw31u_adv",
+                "-lwxbase313u_gcc_custom",
+                "-lwxmsw313u_core_gcc_custom",
+                "-lsfml-audio",
+                "-lsfml-system",
+                "-lwxbase31u_net",
+                "-lws2_32",
+                "-lstk",
+                "-ldsound",
+                "-lole32",
+                "-lwinmm",
+                "-std=c++17"
+            ],
+            "options": {
+                "cwd": "C:\\msys64\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
