@@ -1,9 +1,0 @@
-{
-	"folders": [
-		{
-			"uri": "vscode-remote://ssh-remote+powerhouse.creery/home/powerhouse/Notebooks/MusicServer"
-		}
-	],
-	"remoteAuthority": "ssh-remote+powerhouse.creery",
-	"settings": {}
-}
