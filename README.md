@@ -1,4 +1,4 @@
-| :warning: This project is incomplete due to circumstance |
+*** :warning: This project is incomplete due to circumstance ***
 
 # Simple Music Streaming App
 
