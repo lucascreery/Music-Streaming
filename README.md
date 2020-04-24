@@ -10,6 +10,6 @@ Uses Wx-Widgets and STK
 
 ## TODO
 
-[ ] Metadata handling
-[ ] Update buffer status and seek bar
-[ ] Functional audio controls
+ - [ ] Metadata handling
+ - [ ] Update buffer status and seek bar
+ - [ ] Functional audio controls
